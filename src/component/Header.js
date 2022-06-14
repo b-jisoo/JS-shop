@@ -10,23 +10,27 @@ export default function Header(props) {
           <img className="header_logo" src="./logo-coffzag.png" alt="logo" />
         </a>
       </div>
+
       <div class="header-nav">
+        {/* <div className="header_loginForm"></div>
+          <div className="header_myAccount"></div> */}
         <div className="header_option">
-          <span className="header_optionLineOne"></span>
+          <span className="header_optionLineOne "></span>
           <span className="header_optionLineTwo">
-            <a href="#"></a>
-          </span>
-        </div>
-        <div className="header_option">
-          <span className="header_optionLineOne"></span>
-          <span className="header_optionLineTwo">
-            <a href="#">
-              <Cart icon={Cart} size="35" color="black" />
+            <a href="#" className="header_shoppingCartLink">
+              <Cart className="header_shoppingCart" icon={Cart} color="black" />
+              <div className="header_shoppingCartCount">0</div>
             </a>
           </span>
         </div>
         <div className="header_option">
-          <span className="header_optionLineOne">
+          <span className="header_optionLineOne "></span>
+          <span className="header_optionLineTwo">
+            <a href="#">찜리스트</a>
+          </span>
+        </div>
+        <div className="header_option">
+          <span className="header_optionLineOne ">
             <a href="#">로그인</a>
           </span>
           <span className="header_optionLineTwo">
@@ -34,7 +38,7 @@ export default function Header(props) {
           </span>
         </div>
         <div className="header_option">
-          <span className="header_optionLineOne">
+          <span className="header_optionLineOne ">
             <a href="#">회원가입</a>
           </span>
           <span className="header_optionLineTwo">
