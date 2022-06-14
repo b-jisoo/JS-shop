@@ -1,0 +1,53 @@
+.home_product {
+  width: 220px;
+  border-radius: 20px;
+  padding: 13px;
+  box-shadow: 2px 1px 5px 1px #eeeeeef6;
+}
+
+.home_productImg {
+  width: 90%;
+  object-fit: contain;
+}
+
+.product_title {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.product_description {
+  font-size: 12px;
+  font-weight: 600;
+}
+.product_favoriteHaert {
+  font-size: 22px;
+}
+.product_favorite {
+  text-align: end;
+  margin-right: 14px;
+  color: #da4d60dc;
+}
+.product_footer {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 16px;
+  border-top: 1px solid rgba(102, 102, 102, 0.5);
+  margin-left: -13px;
+  width: calc(100% + 13 * 2px);
+  padding: 3px 10px;
+}
+.product_reviewer {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.product_reviewDate {
+}
+.product_container {
+  margin-top: 10px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

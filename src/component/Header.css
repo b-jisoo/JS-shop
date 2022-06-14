@@ -9,7 +9,7 @@
   justify-content: space-between;
   padding: 0px 15px;
 }
-.header_logo {
+.header-logo {
   width: 100px;
   object-fit: contain;
   margin: 0 20px;
@@ -18,27 +18,27 @@
   display: flex;
 }
 
-.header_option {
+.header-option {
   margin: 0px 10px;
   display: flex;
   flex-direction: column;
 }
-.header_option a {
+.header-option a {
   color: black;
   font-weight: 900;
 }
 
-.header_option text {
+.header-option text {
   color: gray;
 }
 
-.header_shoppingCart {
+.header-shoppingCart {
   font-size: 33px;
 }
-.header_shoppingCartLink {
+.header-shoppingCartLink {
   position: relative;
 }
-.header_shoppingCartCount {
+.header-shoppingCartCount {
   font-size: 13px;
   position: absolute;
   display: flex;
@@ -57,13 +57,13 @@ a {
   text-decoration: none;
 }
 
-.header_optionLineOne {
+.header-optionLineOne {
   font-size: 18px;
 }
-.header_optionLineTwo {
+.header-optionLineTwo {
   font-size: 20px;
 }
 
-.non_Active {
+.non-Active {
   display: none;
 }
