@@ -1,0 +1,28 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+.header-nav {
+  display: flex;
+}
+
+.header_option {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_option text {
+  color: gray;
+}
