@@ -16,24 +16,26 @@ export default function ProductDetail(props) {
   return (
     <div className={styles.wrap}>
       <div className={styles.product_info}>
-        <div className="product_image">
+        <div className={styles.product_image}>
           <img src={productImg} alt="" />
         </div>
-        <div>
-          <div className="product_name">{productName}</div>
+        <div className={styles.product_descriptionContainer}>
+          <div className={styles.product_name}>
+            <p>{productName}</p>
+          </div>
           <div className="product_indoDetail">
-            <div className="price"> {productPrice} 원</div>
+            <div className={styles.price}> {productPrice} 원</div>
             <div className="capsulePack">{productUnit}</div>
           </div>
-          <span className="productDescription">{productInfo}</span>
-          <div className="plusminusBtn">
-            <PlusCircle />
+          <p className={styles.productDescription}>{productInfo}</p>
+          <div className={styles.plusminusBtn}>
+            <PlusCircle className={styles.PlusCircle} />
             {/* {orderCnt}개 */} 1개
-            <DashCircle />
+            <DashCircle className={styles.DashCircle} />
           </div>
-          <div>
-            <ButtonGradient />
-            <ButtonGradient />
+          <div className={styles.product_descriptionContainer_Btn}>
+            <ButtonGradient text="장바구니" color="" />
+            <ButtonGradient text="구매" color="orange" />
           </div>
         </div>
       </div>

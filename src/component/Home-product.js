@@ -15,7 +15,9 @@ export default function HomeProduct({
       <img className={styles.home_productImg} src={image} alt="product" />
       <div>
         <div>
-          <h4 className={styles.product_title}>{title}</h4>
+          <a href="/product">
+            <h4 className={styles.product_title}>{title}</h4>
+          </a>
         </div>
         <div>
           <h6 className={styles.product_description}>{review}</h6>
