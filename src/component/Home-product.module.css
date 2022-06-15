@@ -3,6 +3,7 @@
   border-radius: 20px;
   padding: 13px;
   box-shadow: 2px 1px 5px 1px #eeeeeef6;
+  margin: 10px 10px;
 }
 
 .home_productImg {
@@ -32,7 +33,7 @@
   font-size: 13px;
   font-weight: 500;
   margin-top: 16px;
-  border-top: 1px solid rgba(102, 102, 102, 0.5);
+  border-top: 1px solid rgba(102, 102, 102, 0.2);
   margin-left: -13px;
   width: calc(100% + 13 * 2px);
   padding: 3px 10px;

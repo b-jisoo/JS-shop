@@ -8,6 +8,7 @@
   z-index: 100;
   justify-content: space-between;
   padding: 0px 15px;
+  background-color: #fafafa;
 }
 .header-logo {
   width: 100px;
