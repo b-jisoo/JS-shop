@@ -1,9 +1,9 @@
 .home_product {
-  width: 220px;
+  width: 250px;
   border-radius: 20px;
   padding: 13px;
   box-shadow: 2px 1px 5px 1px #eeeeeef6;
-  margin: 10px 10px;
+  margin: 15px 15px;
 }
 
 .home_productImg {

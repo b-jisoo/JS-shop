@@ -1,0 +1,8 @@
+.wrap {
+  margin: 0 auto;
+}
+.product_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
