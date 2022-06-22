@@ -1,5 +1,6 @@
 import React from "react";
 import { SuitHeart } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 import styles from "./Home-product.module.css";
 
 export default function HomeProduct({
@@ -15,9 +16,9 @@ export default function HomeProduct({
       <img className={styles.home_productImg} src={image} alt="product" />
       <div>
         <div>
-          <a href="/product">
+          <Link to="/product">
             <h4 className={styles.product_title}>{title}</h4>
-          </a>
+          </Link>
         </div>
         <div>
           <h6 className={styles.product_description}>{review}</h6>

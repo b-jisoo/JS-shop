@@ -1,16 +1,16 @@
 import React from "react";
 import "./Header.css";
 import { Cart } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 
 export default function Header(props) {
   return (
     <div className="header">
       <div>
-        <a href="#">
+        <Link to="/">
           <img className="header-logo" src="./logo-coffzag.png" alt="logo" />
-        </a>
+        </Link>
       </div>
-
       <div class="header-nav">
         {/* <div className="header-loginForm"></div>
           <div className="header_myAccount"></div> */}
